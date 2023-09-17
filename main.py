@@ -25,7 +25,7 @@ async def home():
     result = JSONResponse(content=msg)
     return result
 
-@app.get("/api/text_classification")
+@app.get("/api/text_classification/{text}")
 async def text_classification(text:str):
     mood = features.text_classification(text,return_id = False)
     msg = {
