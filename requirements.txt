@@ -1,11 +1,10 @@
-sentence-transformers==2.2.0
+sentence-transformers
 transformers
 transformers[sentencepiece] 
-numpy==1.24.2
 uvicorn[standard]
-pandas==1.5.3
-Pillow==9.4.0
-pythainlp===4.1.0b3
-uvicorn==0.21.1
-websockets==10.4
+pandas
+Pillow
+pythainlp
+uvicorn
+websockets
 fastapi
